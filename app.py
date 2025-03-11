@@ -251,7 +251,6 @@ def prepare_model_args(request_body, request_headers):
         "stop": app_settings.azure_openai.stop_sequence,
         "stream": app_settings.azure_openai.stream,
         "model": app_settings.azure_openai.model,
-        "deployment_id": app_settings.azure_openai.model,
         "user": user_json
     }
 
